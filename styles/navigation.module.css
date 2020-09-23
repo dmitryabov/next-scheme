@@ -1,0 +1,41 @@
+.navigation_container {
+	display: flex;
+  align-items:center;
+  justify-content: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.navigation_container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation {
+  position: relative;
+  margin: 0;
+  width: 81.5%;
+  padding: 13px 100px 11px 35px;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background-color:#0f494a;
+}
+
+.navigation::before {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  content: "";
+  top: 12px;
+  left: 50px;
+  width: 15px;
+  height: 18px;
+  background-image: url("../img/monitor.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
